@@ -2,7 +2,7 @@ manifestVersion: 1
 id: lnmarkets
 category: Finance
 name: LN Markets
-version: "1.2.4"
+version: "1.3.0"
 tagline: Trade Bitcoin derivatives on Lightning
 description: >-
   LN Markets is the first Lightning-native Bitcoin derivatives
@@ -32,18 +32,9 @@ deterministicPassword: true
 submitter: LN Markets
 submission: https://github.com/getumbrel/umbrel/pull/879
 releaseNotes: >-
-  - Update LN Markets assets in the app store.
+  - New account generation method
 
-  - Removed login page as Umbrel proxy handle it now.
+  - Old accounts automatically migrated on first login
 
-  - Added a loading screen for withdrawals and deposits.
+  - Automatic migration will be active for an undefined time span. It will be removed at some point in the future. We'll communicate on it in advance and any non migrated account by then will be considered lost.
 
-  - Added some metrics to the front (total margin traded, all time PL...).
-
-  - Fix websockets connection.
-
-  - Fix withdraw slider, now works as intended.
-
-  - Fix some typos in modals.
-
-  - Fix CORS policy.

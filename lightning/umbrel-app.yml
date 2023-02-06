@@ -1,20 +1,20 @@
-manifestVersion: 1
+manifestVersion: 1.1
 id: lightning
 category: Finance
 name: Lightning Node
-version: "0.15.3-beta"
+version: "0.15.5-beta-2"
 tagline: Run your personal Lightning Network node
 description: >-
   Run your personal Lightning Network node, and join the future of Bitcoin today.
 
 
-  The Lightning Network allows ultra cheap and almost instant Bitcoin transactions.
-  By running a Lightning node, you can not only self-custody your Bitcoin on
-  Lightning, but also earn sats by routing payments on the network.
+  The Lightning Network allows ultra cheap and almost instant Bitcoin transactions. By running a Lightning node, you can not only self-custody your Bitcoin on Lightning, but also earn sats by routing payments on the network.
 
 
-  Connect Zeus Wallet, Zap, or any other wallet that supports lndconnect
-  to remotely manage and access your node from anywhere.
+  Connect Zeus Wallet, Zap, or any other wallet that supports lndconnect to remotely manage and access your node from anywhere.
+
+
+  With the Advanced Settings feature, you can take control of your node and customize it to your needs. Personalize it with a name, enable larger channels, limit channel sizes, set your routing fees, optimize your routing strategy, add watchtower services, fine-tune its performance, and much more.
 
 
   Powered by LND.
@@ -22,15 +22,20 @@ description: >-
 
   An official app from Umbrel.
 releaseNotes: >-
-  - Bugfix: A bug has been fixed where the responder of a zero-conf channel could forget about the channel after a hard-coded 2016 blocks.
+  Introducing Advanced Settings. Take control of your node and customize it to your needs.
 
-  - Bugfix: A bug where LND wouldn't send a ChannelUpdate during a channel open has been fixed.
 
-  - Bugfix: A bug has been fixed that caused fee estimation to be incorrect for taproot inputs when using the SendOutputs call.
+  - Personalize your node by giving it a name and color.
 
-  - Bugfix: A bug has been fixed that could cause lnd to underpay for co-op close transaction when or both of the outputs used a P2TR addresss.
+  - Enable larger channels, and limit channel sizes.
 
-  - Taproot: Add p2tr address type to account import.
+  - Set your routing fees, and optimize your routing strategy.
+
+  - Add watchtower services to guard your channels, and run a service for others.
+
+  - Fine-tune the performance and resource usage of your node.
+
+  - And much more!
 developer: Umbrel
 website: https://umbrel.com
 dependencies:

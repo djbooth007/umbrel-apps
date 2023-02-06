@@ -7,7 +7,7 @@ services:
       APP_PORT: $APP_LNMARKETS_PORT
   
   lnmarkets:
-    image: ghcr.io/ln-markets/umbrel:v1.2.4@sha256:79b4a3651ee425e63beb50e46058244ba9c1ed6e173e09188de16e463fcab911
+    image: ghcr.io/ln-markets/umbrel:v1.3.0@sha256:2b871515b293580963fac66979352afabaa60da73b04471ce0e225c17906cc34
     init: true
     user: 1000:1000
     restart: on-failure
