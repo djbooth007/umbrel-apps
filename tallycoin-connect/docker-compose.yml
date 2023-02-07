@@ -7,7 +7,7 @@ services:
       APP_PORT: 8123
 
   web:
-    image: djbooth007/tallycoin_connect:v1.7.5@sha256:136b7e09e3681fa24f73176a1a68715354d2d4b0fa20ca4bbc11356ced3f0f1e
+    image: djbooth007/tallycoin_connect:v1.8.0@sha256:60baba176423640a1a6025d7cdd83b67dcb22a0f1e2ce846b4a765cf98fc79ff
     user: "1000:1000"
     restart: on-failure
     stop_grace_period: 1m
